@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MatsonAccessibilityTest" duration-ms="3234" started-at="2019-07-11T09:01:37Z" finished-at="2019-07-11T09:01:40Z">
+    <groups>
+    </groups>
+    <test name="MatsonAccessTests" duration-ms="3234" started-at="2019-07-11T09:01:37Z" finished-at="2019-07-11T09:01:40Z">
+      <class name="com.matson.accessibility.test.AxsbltyTest">
+        <test-method status="PASS" signature="validateAxsblty(java.lang.String)[pri:0, instance:com.matson.accessibility.test.AxsbltyTest@66a3ffec]" name="validateAxsblty" duration-ms="2468" started-at="2019-07-11T09:01:38Z" data-provider="getUrlFrmXl" finished-at="2019-07-11T09:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.matson.com/corporate/contactus]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAxsblty -->
+        <test-method status="PASS" signature="validateAxsblty(java.lang.String)[pri:0, instance:com.matson.accessibility.test.AxsbltyTest@66a3ffec]" name="validateAxsblty" duration-ms="0" started-at="2019-07-11T09:01:40Z" data-provider="getUrlFrmXl" finished-at="2019-07-11T09:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.matson.com/logistics/customer_portal/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAxsblty -->
+        <test-method status="PASS" signature="validateAxsblty(java.lang.String)[pri:0, instance:com.matson.accessibility.test.AxsbltyTest@66a3ffec]" name="validateAxsblty" duration-ms="1" started-at="2019-07-11T09:01:40Z" data-provider="getUrlFrmXl" finished-at="2019-07-11T09:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.matson.com/logistics/transportation/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAxsblty -->
+        <test-method status="PASS" signature="quitDriverAfterTest()[pri:0, instance:com.matson.accessibility.test.AxsbltyTest@66a3ffec]" name="quitDriverAfterTest" is-config="true" duration-ms="0" started-at="2019-07-11T09:01:40Z" finished-at="2019-07-11T09:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriverAfterTest -->
+        <test-method status="PASS" signature="quitDriverAfterClass()[pri:0, instance:com.matson.accessibility.test.AxsbltyTest@66a3ffec]" name="quitDriverAfterClass" is-config="true" duration-ms="0" started-at="2019-07-11T09:01:40Z" finished-at="2019-07-11T09:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriverAfterClass -->
+      </class> <!-- com.matson.accessibility.test.AxsbltyTest -->
+    </test> <!-- MatsonAccessTests -->
+  </suite> <!-- MatsonAccessibilityTest -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [MatsonAccessibilityTest]">
+  <test thread-count="1" name="MatsonAccessTests(failed)">
+    <classes>
+      <class name="com.matson.accessibility.test.AxsbltyTest">
+        <methods>
+          <include name="codeSnifferTest"/>
+          <include name="quitDriverAfterTest"/>
+          <include name="quitDriverAfterClass"/>
+        </methods>
+      </class> <!-- com.matson.accessibility.test.AxsbltyTest -->
+    </classes>
+  </test> <!-- MatsonAccessTests(failed) -->
+</suite> <!-- Failed suite [MatsonAccessibilityTest] -->
